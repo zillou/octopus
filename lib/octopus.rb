@@ -95,7 +95,7 @@ module Octopus
   end
 
   def self.rails4?
-    ActiveRecord::VERSION::MAJOR >= 4
+    ActiveRecord::VERSION::MAJOR == 4
   end
 
   def self.rails5?
