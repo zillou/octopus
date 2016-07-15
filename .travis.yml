@@ -17,6 +17,6 @@ gemfile:
 matrix:
   exclude:
     - rvm: 2.0.0
-      gemfiles/rails5.gemfile
+      gemfile: gemfiles/rails5.gemfile
     - rvm: 2.1.6
-      gemfiles/rails5.gemfile
+      gemfile: gemfiles/rails5.gemfile
